@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Vollkorn, serif;
+    color: #fff;
+    font-size: 1.02em;
+}
+form {
+    width: 550px;
+    background-color: rgb(9, 68, 34);
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: grid;
+    grid-gap: 10px;
+}
+h1 {
+    color: #578f57;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 10px;
+}
+label {
+    font-size: 1.08em;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 0.9em;
+    font-family: Vollkorn, serif;
+}
+p {
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #504f4f;
+    color: #fff;
+    width: 300px;
+    font-size: 0.9em;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    margin: 10px auto;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #578f57;
+    color: #000;
+}
