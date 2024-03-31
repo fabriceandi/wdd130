@@ -122,3 +122,51 @@ main {
 figcaption {
     text-align: center;
 }
+.picture {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: space-around;
+    justify-items: center;
+    margin: 20px auto;
+}
+.picture img{
+    width: 250px;
+    height: 200px;
+}
+form {
+    background-color: #9b9b9b;
+    display: grid;
+    width: 600px;
+    grid-gap: 10px;
+    font-size: 1.02rem;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+}
+input, textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+.checkbox-item {
+    grid-template-columns: 10px 1fr;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+button {
+    background-color:#cb5a0a;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    width: 150px;
+    color: #000;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #fffbfb;
+    color: #cb5a0a;
+    border: 1px solid #cb5a0a;
+}
