@@ -170,3 +170,9 @@ button:hover {
     color: #cb5a0a;
     border: 1px solid #cb5a0a;
 }
+.wireframe {
+    display: none;
+}
+.wireframe-link {
+    text-decoration: none;
+}
