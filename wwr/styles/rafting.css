@@ -310,4 +310,7 @@ table {
   tbody > tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
   }
-  
+  .contact-h1 {
+    position: static;
+    color:#cb5a0a;
+  }
